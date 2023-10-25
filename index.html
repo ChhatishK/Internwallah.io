@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Intern Wallah</title>
+        <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />
+        
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <nav class="bg-[#c3dbddfc]">
+            <li
+                class="w-11/12 max-w-[1350px] flex flex-row justify-between mx-auto p-5 items-center"
+            >
+                <a href="index.html"
+                    ><img
+                        src="./images/logo.png"
+                        width="198px"
+                        class="cursor-pointer"
+                /></a>
+
+                
+
+                <ul class="sm:flex hidden gap-6 justify-between font-bold font-sans">
+                
+                    <li
+                        class="group transition-all duration-200 cursor-pointer"
+                    >
+                        <a
+                            href="index.html"
+                            class="text-green-900 group-hover:text-black"
+                            >Home
+                        </a>
+                        <div
+                            class="w-full h-0.5 bg-green-900 group-hover:bg-black"
+                        ></div>
+                    </li>
+                    <li
+                        class="group transition-all duration-200 cursor-pointer"
+                    >
+                        <a
+                            href="#"
+                            class="text-green-900 group-hover:text-black"
+                            >VIP
+                        </a>
+                        <div
+                            class="w-full h-0.5 bg-green-900 group-hover:bg-black"
+                        ></div>
+                    </li>
+                    <li
+                        class="group transition-all duration-200 cursor-pointer"
+                    >
+                        <a
+                            href="#WhyChooseUS"
+                            class="text-green-900 group-hover:text-black"
+                            >About Us
+                        </a>
+                        <div
+                            class="w-full h-0.5 bg-green-900 group-hover:bg-black"
+                        ></div>
+                    </li>
+                    <li
+                        class="group transition-all duration-200 cursor-pointer"
+                    >
+                        <a
+                            href="#footer"
+                            class="text-green-900 group-hover:text-black"
+                            >Contact Us
+                        </a>
+                        <div
+                            class="w-full h-0.5 bg-green-900 group-hover:bg-black"
+                        ></div>
+                    </li>
+                </ul>
+                <button class="block sm:hidden"><i class="fa-solid fa-bars" onclick="openMenu()" id="menuBtn"></i></button>
+            </div>
+
+        </nav>
+        <div class="hidden w-3/12justify-between p-4 absolute top-0 right-0 bg-white" id="menu">
+            <ul>
+                <li class="cursor-pointer"><a href="index.html" onclick="closeMenu()">Home</a></li>
+                <li class="cursor-pointer"><a href="#"  onclick="closeMenu()">VIP</a></li>
+                <li class="cursor-pointer"><a href="#WhyChooseUS" onclick="closeMenu()">About us</a></li>
+                <li class="cursor-pointer"><a href="#footer" onclick="closeMenu()">Contact us</a></li>
+                
+            </ul>
+            <i class="fa-solid fa-x" onclick="closeMenu()"></i>
+        </div>
+
+        <!-- First Section-->
+        <section>
+            <div
+                class="w-10/12 max-w-[1200px] mx-auto flex flex-row items-center justify-between"
+            >
+                <!-- Left part-->
+                <div class="space-y-4">
+                    <h2 class="text-5xl opacity-80 leading-loose">
+                        Unlock Your Potential,<br />
+                        With "Intern Wallah"
+                    </h2>
+                    <p>
+                        Our goal is to empower the next generation of tech
+                        leaders. Our internship program offers hands-on
+                        experience in different fields. Our interns work
+                        alongside industry experts to solve real-world problems
+                        and gain the skills they need to succeed in their
+                        careers. At Intern Wallah, we believe that every student
+                        deserves a chance to unlock their potential and pursue
+                        their passions.
+                    </p>
+                    <a href="#WhyChooseUS"
+                        ><button
+                            class="w-44 h-12 font-semibold bg-[#006251] hover:bg-[#09423a] transition-all duration-200 text-white font-sans mt-4"
+                        >
+                            WHO ARE WE !
+                        </button></a
+                    >
+                </div>
+
+                <!-- Right part-->
+                <img
+                    src="./images/intro-img-2.jpg"
+                    width="700px"
+                    class="-mr-36 hidden lg:block"
+                />
+            </div>
+        </section>
+
+        <!-- Second Section-->
+        <section class="relative py-16" id="WhyChooseUS">
+            <img
+                src="./images/graphic-img1.png"
+                width="720px"
+                class="opacity-25 absolute hidden lg:block"
+            />
+            <p
+                class="flex flex-col items-center text-green-950 font-semibold text-xl z-[30]"
+            >
+                WHY CHOOSE US !
+            </p>
+
+            <!-- <div class="w-44 h-1 bg-green-900 align-middle"></div> -->
+
+            <div
+                class="w-10/12 max-w-[1080px] mx-auto flex lg:flex-row flex-col gap-12 md:mt-16 mt-6"
+            >
+                <div
+                    class="flex flex-col bg-[#f6f4f4b4] p-10 rounded-3xl space-y-4 z-[40] hover:bg-[#d5eff197]"
+                >
+                    <img src="./images/networking.png" width="60px" />
+                    <h2 class="text-xl">Networking Opportunities</h2>
+                    <p class="text-lg opacity-50">
+                        At Intern Wallah, we understand the importance of
+                        networking and building connections within your
+                        industry. That's why we offer our interns a variety of
+                        networking opportunities to help them build their
+                        professional network and gain valuable contacts. By
+                        joining the Intern Wallah family, you'll have access to
+                        a wealth of networking opportunities.
+                    </p>
+                </div>
+                <div
+                    class="flex flex-col bg-[#e3e3e3b4] p-10 rounded-3xl space-y-4 z-[20] hover:bg-[#d5eff197]"
+                >
+                    <img src="./images/real-world.png" width="60px"/>
+                    <h2 class="text-xl">Real World Experience</h2>
+                    <p class="text-lg opacity-50">
+                        We believe that the best way to learn is by doing. Our
+                        internships provide students with the opportunity to
+                        gain real-world experience by working on projects that
+                        are relevant to their field of study.This hands-on
+                        experience allows our interns to apply the knowledge
+                        they have learned in the classroom to real-world
+                        situations.
+                    </p>
+                </div>
+                <div
+                    class="flex flex-col bg-[#e3e3e3b4] p-10 rounded-3xl space-y-4 z-[20] hover:bg-[#d5eff197]"
+                >
+                    <img src="./images/personalised.png" width="60px" />
+                    <h2 class="text-xl">Personalized Learning</h2>
+                    <p class="text-lg opacity-50">
+                        We understand that each intern has different needs and
+                        learning styles. That's why our program is tailored to
+                        your individual needs, providing you with personalized
+                        attention and support. With our personalized approach,
+                        you get the opportunity to learn at their own pace,
+                        while receiving the guidance and support they need to
+                        excel in their field of choice
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Third Section-->
+        <section>
+            <div
+                class="w-10/12 max-w-[1300px] mx-auto flex flex-row items-center lg:space-x-44 md:mt-32 mb-32"
+            >
+                <img src="./images/success-img.png" width="450px" class="hidden lg:block"/>
+                <div class="flex flex-col items-center gap-6 opacity-95">
+                    <h2 class="text-3xl font-semibold opacity-90">
+                        " Start Strong, Finish Stronger ! "
+                    </h2>
+                    <h3 class="text-green-950 font-sans font-medium">
+                        "A GOOD START IS HALF DONE" BY ARISTOTLE.
+                    </h3>
+                    <p class="leading-7 text-center">
+                        At Intern Wallah, we believe that starting strong is the
+                        key to success. That's why we're dedicated to providing
+                        college students with the skills, experience, and
+                        knowledge they need to launch their careers and achieve
+                        their goals. Our internship programs are designed to
+                        help students start strong and finish even stronger, so
+                        they can stand out in the competitive job market and
+                        achieve their dreams.
+                    </p>
+                    <p class="leading-7 text-center">
+                        We believe that a good start is half done. That's why
+                        we're committed to helping our interns start strong and
+                        develop the skills and experience they need to finish
+                        even stronger. Whether you're just starting your journey
+                        or looking to take the next step in your career, our
+                        internship programs can help you get there. Join us and
+                        discover the power of a strong start."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Forth Section-->
+        <section>
+            <div
+                class="w-10/12 max-w-[1180px] mx-auto flex flex-row space-x-28 items-cente mb-28"
+            >
+                <div class="lg:space-y-10 space-y-3">
+                    <h2 class="text-3xl font-semibold">
+                        "Virtual internship Program !"
+                    </h2>
+                    <p class="text-green-900 opacity-95">
+                        EXCITED TO WORK WITH US !
+                    </p>
+                    <p class="text-4xl font-normal opacity-80">
+                        We are always open to help you to take the next step in
+                        your career! Apply for the Internship & Grow With Us!
+                    </p>
+                    <a href="internship.html">
+                        <button
+                            class="w-40 h-12 font-semibold bg-[#006251] hover:bg-[#09423a] transition-all duration-200 text-white font-sans mt-6"
+                        >
+                            Apply Now !
+                        </button>
+                    </a>
+                </div>
+                <img src="./images/apply-now-img2.png" width="550px" class="hidden lg:block" />
+            </div>
+        </section>
+
+        <!-- Footer Section-->
+        <footer class="bg-[#92c7cabd]" id="footer">
+            <div
+                class="w-10/12 max-w-[1180px] flex flex-col  space-y-8 lg:flex-row md:justify-between mx-auto py-8"
+            >
+                <div class="flex flex-col mt-8 md:space-y-6 space-y-1">
+                    <h2 class="text-3xl opacity-90">Intern Wallah</h2>
+                    <p class="opacity-95 text-lg">
+                        Unlock Your Potential, With "Intern Wallah"
+                    </p>
+                </div>
+                <div class="flex flex-col">
+                    <h2 class="text-3xl opacity-90 md:mb-6 mb-2">Contact Us</h2>
+                    
+                        
+                    <a href="https://www.google.com/maps/place/Migsun+Wynn,+Eta+II,+Greater+Noida,+Uttar+Pradesh+201310/@28.4950719,77.5355806,17z/data=!3m1!4b1!4m6!3m5!1s0x390ceaea8fc83f81:0x2ba02dba81de42b5!8m2!3d28.4953219!4d77.5379377!16s%2Fg%2F11lsngf2sk?entry=ttu" class="flex flex-row gap-3">
+                        <img src="./images/mapIcon.png" width="20px">Migsun Wynn, Greater Noida
+                    </a>
+                
+                    
+                    <a href="mailto: internwallah@gmail.com" class="flex flex-row gap-3">
+                        <img src="./images/mailIcon.png" class="w-6">internwallah.info@gmail.com
+                    </a>
+                        
+                </div>
+
+                <div class="flex flex-col">
+                    <h2 class="text-3xl opacity-90 md:mb-6 mb-2">Follow Us</h2>
+                    <div>
+                        
+                        <a href="https://www.instagram.com/_chhatish_yadav/" class="flex flex-row gap-2 mb-2 items-center">
+                            <img src="./images/instagramIcon.webp" class="w-4 h-4">
+                            Instagram
+                        </a>
+
+                        <a href="https://twitter.com/ChhatishKumarY1"  class="flex flex-row gap-2 mb-2 items-center">
+                            <img src="./images/twitterIcon.png" class="w-4 h-4">
+                            Twiter
+                        </a>
+                    
+                        <a href="https://www.linkedin.com/in/chhatish-kumar-18879a237/" class="flex flex-row gap-2 mb-2 items-center">
+                            <img src="./images/linkedinIcon.avif" class="w-4 h-4">
+                            Linkedin
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Copyright Section-->
+        <div class="py-5 bg-black text-center bg-opacity-90">
+            <p class="text-white">
+                Copyright © 2023 Intern Wallah. All rights reserved.
+            </p>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
